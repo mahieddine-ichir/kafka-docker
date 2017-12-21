@@ -18,7 +18,7 @@ docker run -d --name zookeeper zookeeper
 docker build -t kafka kafka
 ```
 
-## Run zookeeper
+## Run kafka
 
 ```
 docker run -d --name kafka --link zookeeper:zookeeper kafka
